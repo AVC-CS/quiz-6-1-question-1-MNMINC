@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 bool IsPrime(int); 
-void getTwoValues(int, int);
+void getTwoValues(int &, int &);
 int getNextPrime(int);
 int getPervPrime(int);
 
 
 
-void getTwoValues(int begin, int end)
+void getTwoValues(int &begin, int &end)
 {
     do 
     {
