@@ -1,5 +1,11 @@
 #include <iostream>
 using namespace std;
+bool IsPrime(int); 
+void getTwoValues(int, int);
+int getNextPrime(int);
+int getPervPrime(int);
+
+
 
 void getTwoValues(int begin, int end)
 {
@@ -18,7 +24,7 @@ int getNextPrime(int begin)
     }
     return np;
 }
-int getPervPrime(int end)
+int getPrevPrime(int end)
 {
     int np = end - 1;
     while (!IsPrime(np))
